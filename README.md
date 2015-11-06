@@ -6,7 +6,7 @@ Cache, Proxies, Queues
 * Clone this repo, run `npm install`.
 * Install redis and run on localhost:6379
 
-
+Code for all the routes in [main.js](https://github.com/Shraddha512/DevOps-HW3-Cache-Proxies-Queues/blob/master/main.js)
 ### set/get
 
 ```
@@ -121,3 +121,6 @@ console.log("listening on port3002")
 proxyServer.listen(3002);
 
 ```
+
+
+### Screencast
