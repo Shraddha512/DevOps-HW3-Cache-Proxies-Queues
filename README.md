@@ -42,6 +42,12 @@ Code for all the routes in [main.js](https://github.com/Shraddha512/DevOps-HW3-C
 
 ### upload/meow
 
+Using curl to upload 
+
+```
+curl -F "image=@./img/morning.jpg" localhost:3000/upload
+```
+
 ```
 app.post('/upload',[ multer({ dest: './uploads/'}), function(req, res){
     //console.log(req.body) // form fields
