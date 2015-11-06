@@ -6,6 +6,7 @@ Cache, Proxies, Queues
 * Clone this repo, run `npm install`.
 * Install redis and run on localhost:6379
 
+
 ### set/get
 
 ```
@@ -87,6 +88,7 @@ app.post('/upload',[ multer({ dest: './uploads/'}), function(req, res){
 ```
 
 ### Demonstrating proxy
+You will find this code in [proxy.js](https://github.com/Shraddha512/DevOps-HW3-Cache-Proxies-Queues/blob/master/proxy.js)
 
 ```
 var redis = require('redis')
